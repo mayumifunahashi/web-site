@@ -1,14 +1,13 @@
 body {
     background: white;
-    margin: 0 25rem 0 25rem;
+    margin: 0 10rem 0 10rem;
 }
 
-#container-carrossel {}
 
 #banner {
     object-fit: cover;
     width: 100%;
-    height: 40vh;
+    height: 45vh;
 }
 
 h1 {
@@ -54,3 +53,10 @@ color: rgb(153, 129, 55);
    
     
 }
+
+#container-video {
+    display: flex;
+    justify-content:space-around;
+
+}
+
