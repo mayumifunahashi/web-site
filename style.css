@@ -1,20 +1,21 @@
 body {
     background: white;
-    margin: 0 10rem 0 10rem;
+    margin: 0 25rem 0 25rem;
 }
 
+#container-carrossel {}
 
 #banner {
     object-fit: cover;
     width: 100%;
-    height: 45vh;
+    height: 40vh;
 }
 
 h1 {
     text-align: center;
     color: black;
     font-size: 4rem;
-    margin-top: 4rem;
+    margin:7rem 0 7rem 0;
     color: rgb(153, 129, 55);
 
 }
@@ -23,8 +24,6 @@ h1 {
 #container-texto {
 display: flex;
 margin: 5rem 10rem;
-
-
 
 
 }
@@ -49,14 +48,105 @@ color: rgb(153, 129, 55);
     display: flex;
     width: 60%;
     font-size: 1rem;
-    text-align: left;
+    text-align: left; 
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.icones {
+    margin-top: 7rem;
+}
+.icones p {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: #998137;
+}
+
+.icones img {
+    height: 84px;
+    width: 84px;
    
-    
 }
 
 #container-video {
     display: flex;
     justify-content:space-around;
+    margin: 7rem 0 7rem 0;
 
 }
 
+
+#container-imagem-mulher{
+    display: flex;
+    justify-content: center;
+    margin: 7rem;
+}
+
+#container-imagem-mulher img{
+    width: 80%;
+}
+
+#container-imagem-homem{
+    display: flex;
+    justify-content: center;
+    margin: 7rem;
+}
+
+#container-imagem-homem img{
+    width: 80%;
+}
+
+
+/* Localização */
+
+.container-fachada {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 7rem 0 7rem  0 ;
+    
+}
+
+.container-fachada img {
+    width: 50%; 
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.container-fachada p {
+    width: 40%;
+    text-align: justify;
+    font-size: 1.2rem;
+}
+
+#mapa {
+    display: flex;
+    justify-content: center;
+}
+
+#mapa iframe {
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+/* Produtos */
+
+#produtos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+#produtos li {
+    
+}
+
+.conteudo-produtos {
+    width:30%;
+    height: 30%;
+    
+}
