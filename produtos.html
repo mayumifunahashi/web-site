@@ -7,81 +7,127 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Doceria Shop</title>
     <link rel="stylesheet" href="reset.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 
 </head>
 
+<header>
+    <div id="titulo">
+      <p>
+        Doceria
+      </p>
+      <nav>
+
+    </div>
+    <div class="links">
+      <a href="index.html">Home</a>
+      <a href="produtos.html">Produtos</a>
+      <a href="localizacao.html">Localização</a>
+    </div>
+    </nav>
+  </header>
+
 <body onload="slide1()">
-    <header>
-        <nav class="navbar navbar-expand-lg bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Doceria Shop</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                        <a class="nav-link" href="produtos.html">Produtos</a>
-                        <a class="nav-link" href="localizacao.html">Localização</a>
-                    </div>
-                </div>
-            </div>
-        </nav>
-    </header>
 
     <div id="container-carrossel">
         <img src='carrossel.jpeg' alt="doce" id="banner">
     </div>
 
     <main>
-        <div>
-        <ul id="produtos">
-            <li> 
-                <img class="conteudo-produtos" src="imagens/cortadas/produto-bolo3.jpeg" alt="produto1">
-            </li>
-            <li>
-                <img class="conteudo-produtos" src="imagens/cortadas/produto-bolo4.jpeg" alt="">
-            </li>
-            <li>
-                <img class="conteudo-produtos" src="imagens/cortadas/produto-bolo5.jpeg" alt="">
-            </li>
-            <li>
-                <img class="conteudo-produtos" src="imagens/cortadas/produto-bolo6.jpeg" alt="">
-            </li>
-            <li>
-                <img class="conteudo-produtos" src="imagens/cortadas/produto-bolo7.jpeg" alt="">
-            </li>
-            <li>
-                <img class="conteudo-produtos" src="imagens/cortadas/produto-bolo8.jpeg" alt="">
-            </li>
-            <li>
-                <img class="conteudo-produtos" src="imagens/cortadas/produto-bolo9.jpeg" alt="">
-            </li>
-            <li>
-                <img class="conteudo-produtos" src="imagens/cortadas/produto-brownie.jpeg" alt="">
-            </li>
-            <li>
-                <img class="conteudo-produtos" src="imagens/cortadas/produto-cupcake.jpeg" alt="">
-            </li>
-            <li>
-                <img class="conteudo-produtos" src="imagens/cortadas/produto-donut.jpeg" alt="">
-            </li>
-        </ul>
-    </div>
+
+
+        <dl>
+            <dt>Bolo de Fubá</dt>
+            <dd class="price">R$80,00</dd>
+            <dd> <img src="imagens/cortadas/produto-bolo3.jpeg" alt=""></dd>
+            <dd class="ingredients">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo sed porro officiis velit eligendi possimus esse officia vero similique optio, beatae sint ducimus fugiat iusto quam? Fugiat est omnis deserunt. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur minus voluptates quaerat atque, laudantium perspiciatis ducimus animi accusantium iusto provident consequuntur veritatis nam omnis et eum commodi asperiores. Et, quaerat.</dd>
+        </dl>
+
+        <dl>
+            <dt>Bolo de coco e creme branco</dt>
+            <dd class="price">R$150,00</dd>
+            <dd> <img src="imagens/cortadas/produto-bolo4.jpeg" alt=""></dd>
+            <dd class="ingredients">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo sed porro officiis velit eligendi possimus esse officia vero similique optio, beatae sint ducimus fugiat iusto quam? Fugiat est omnis deserunt. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis consectetur ab vitae necessitatibus, nemo provident sequi deserunt eaque minus nihil explicabo ea, quidem itaque, officia animi eius sit exercitationem error?</dd>
+        </dl>
+
+        <dl>
+            <dt>Bolo Nuts</dt>
+            <dd class="price">R$165,00</dd>
+            <dd> <img src="imagens/cortadas/produto-bolo5.jpeg" alt=""></dd>
+            <dd class="ingredients">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo sed porro officiis velit eligendi possimus esse officia vero similique optio, beatae sint ducimus fugiat iusto quam? Fugiat est omnis deserunt. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro error sed cupiditate eveniet aspernatur perferendis. Neque deleniti adipisci consequuntur dicta vel animi numquam mollitia harum sapiente minus magni, quam odit!</dd>
+        </dl>
+
+        <dl>
+            <dt>Bolo frutas vermelhas e leite em pó </dt>
+            <dd class="price">R$120,00</dd>
+            <dd> <img src="imagens/cortadas/produto-bolo6.jpeg" alt=""></dd>
+            <dd class="ingredients">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo sed porro officiis velit eligendi possimus esse officia vero similique optio, beatae sint ducimus fugiat iusto quam? Fugiat est omnis deserunt. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit vitae provident corporis quaerat. Itaque aliquam dolores alias recusandae autem, esse qui atque commodi mollitia, reiciendis magnam cupiditate, repudiandae tempore? Sunt.</dd>
+        </dl>
+
+        <dl>
+            <dt>Bolo de chocolate cremoso</dt>
+            <dd class="price">R$130,00</dd>
+            <dd> <img src="imagens/cortadas/produto-bolo7.jpeg" alt=""></dd>
+            <dd class="ingredients">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo sed porro officiis velit eligendi possimus esse officia vero similique optio, beatae sint ducimus fugiat iusto quam? Fugiat est omnis deserunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, quae recusandae. Harum assumenda laboriosam ut. Nostrum fuga voluptate, omnis beatae in possimus, incidunt, eos cupiditate perspiciatis maiores ad expedita vitae?</dd>
+        </dl>
+
+        <dl>
+            <dt>Bolo caramelo </dt>
+            <dd class="price">R$ 135,00</dd>
+            <dd> <img src="imagens/cortadas/produto-bolo8.jpeg" alt=""></dd>
+            <dd class="ingredients">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo sed porro officiis velit eligendi possimus esse officia vero similique optio, beatae sint ducimus fugiat iusto quam? Fugiat est omnis deserunt. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae maiores, quibusdam commodi labore assumenda dignissimos dolor veritatis itaque blanditiis numquam optio ipsam eius qui eligendi expedita ipsum. Deserunt, voluptates omnis?</dd>
+        </dl>
+
+        <dl>
+            <dt>Bolo chocolte meio amargo</dt>
+            <dd class="price">R$ 155,00</dd>
+            <dd> <img src="imagens/cortadas/produto-bolo9.jpeg" alt=""></dd>
+            <dd class="ingredients">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo sed porro officiis velit eligendi possimus esse officia vero similique optio, beatae sint ducimus fugiat iusto quam? Fugiat est omnis deserunt. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis laboriosam, sequi modi tempora ea perferendis numquam aperiam! Iste, facere mollitia architecto nihil quia beatae voluptatem, culpa tempore fugit doloribus fugiat?</dd>
+        </dl>
+
+        <dl>
+            <dt>Brownie chocolate</dt>
+            <dd class="price">R$90,00</dd>
+            <dd> <img src="imagens/cortadas/produto-brownie.jpeg" alt=""></dd>
+            <dd class="ingredients">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo sed porro officiis velit eligendi possimus esse officia vero similique optio, beatae sint ducimus fugiat iusto quam? Fugiat est omnis deserunt. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae in quod delectus atque perferendis iusto, perspiciatis ab aperiam adipisci similique culpa qui necessitatibus consequuntur! Quibusdam animi ipsam quas perspiciatis sed?</dd>
+        </dl>
+
+        <dl>
+            <dt>Cupcake Baunilha</dt>
+            <dd class="price">100,00 (10 unidades)</dd>
+            <dd> <img src="imagens/cortadas/produto-cupcake.jpeg" alt=""></dd>
+            <dd class="ingredients">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo sed porro officiis velit eligendi possimus esse officia vero similique optio, beatae sint ducimus fugiat iusto quam? Fugiat est omnis deserunt. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, dolores! Dignissimos placeat ipsum voluptas enim doloremque similique repellat culpa natus tenetur, eum non. Corporis ea dolores ut! Laboriosam, eum voluptate.</dd>
+        </dl>
+
+        <dl>
+            <dt>Donut chocolate (10 unidades)</dt>
+            <dd class="price">R$ 120,00</dd>
+            <dd> <img src="imagens/cortadas/produto-donut.jpeg" alt=""></dd>
+            <dd class="ingredients">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo sed porro officiis velit eligendi possimus esse officia vero similique optio, beatae sint ducimus fugiat iusto quam? Fugiat est omnis deserunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic officia aliquam eveniet repellendus eaque facilis, saepe, molestias earum, temporibus odio vero quam cupiditate optio natus id quisquam culpa numquam! Minima.</dd>
+        </dl>
 
     </main>
 
+    <footer>
+        <div id="container-social">
+          <img src="instgram.png" alt="instagram">
+          <img src="twitter.png" alt="twitter">
+          <img src="facebook.png" alt="facebook">
+          <img src="youtube.png" alt="youtube">
+        </div>
     
+        <div>
+          <h4>Doceria</h4>
+        </div>
+    
+        <div>
+          <p>© 2022 Doceria</p>
+        </div>
+      </footer>
+
+
     <script src="index.js"></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-        crossorigin="anonymous"></script>
 </body>
 
 
