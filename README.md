@@ -1,4 +1,4 @@
-<h1 align="center"> Calculadora de IMC </h1>
+<h1 align="center"> Site venda de doces simples </h1>
 
 ![Capa de perfil para banner de linkedIn](https://user-images.githubusercontent.com/100293266/171008076-7b15617b-b4cf-4a84-9ad8-f089916148ce.png)
 <br></br>
@@ -7,7 +7,7 @@
 
 <h2 align="center"> :bookmark_tabs: Descrição do projeto </h2>
 
-<p> Este projeto está sendo desenvolvido com o intuito de aperfeiçoar minhas habilidades com HTML,CSS e JavScrip. É uma página de fictícia de venda de doces, futuramente deixarei ela responsiva. </p>
+<p> Este projeto está sendo desenvolvido com o intuito de aperfeiçoar minhas habilidades com HTML,CSS e JavScrip. É uma página de fictícia de venda de doces, futuramente deixarei ela responsiva. O JS foi utilizado no slide deimages que passa automaticamente</p>
 <p> :file_folder: Link para visualizar no navegador : https://mayumifunahashi.github.io/web-site/index.html <p/>
 <br></br>
 <h2 align = "center" >:hammer: Funcionalidades do projeto</h2>
@@ -35,4 +35,4 @@
 
   
 
-<p align="center">:construction: Projeto em andamento (felaborando a responsividade) :construction:</p>
+<p align="center">:construction: Projeto em andamento (elaborando a responsividade) :construction:</p>
